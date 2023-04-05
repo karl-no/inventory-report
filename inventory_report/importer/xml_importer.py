@@ -10,4 +10,4 @@ class XmlImporter(Importer):
                 report_reader = xmltodict.parse(file.read())
             return list(report_reader["dataset"]["record"])
         else:
-            raise ValueError("Formato do arquivo inválido!")
+            raise ValueError("Arquivo inválido")

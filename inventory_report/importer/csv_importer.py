@@ -12,4 +12,4 @@ class CsvImporter(Importer):
                 )
                 return list(report_reader)
         else:
-            raise ValueError("Formato do arquivo inválido!")
+            raise ValueError("Arquivo inválido")

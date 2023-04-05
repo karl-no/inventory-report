@@ -10,4 +10,4 @@ class JsonImporter(Importer):
                 report_reader = json.load(file)
                 return report_reader
         else:
-            raise ValueError("Formato do arquivo inválido!")
+            raise ValueError("Arquivo inválido")
